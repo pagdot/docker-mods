@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+# copy ssl defaults if needed
+[[ ! -f /config/nginx/ssl.conf ]] && \
+    cp /defaults/ssl.conf /config/nginx/ssl.conf
