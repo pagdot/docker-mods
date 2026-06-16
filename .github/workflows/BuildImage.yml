@@ -10,8 +10,8 @@ on:
         required: false
 
 env:
-  GITHUB_REPO: "linuxserver/docker-mods" #don't modify
-  ENDPOINT: "linuxserver/mods" #don't modify
+  GITHUB_REPO: "pagdot/docker-mods" #don't modify
+  ENDPOINT: "pagdot/mods" #don't modify
   BASEIMAGE: "code-server" #replace
   MODNAME: "pi-agent" #replace
   MOD_VERSION: ${{ inputs.mod_version }} #don't modify
