@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-npm install -g --ignore-scripts @earendil-works/pi-coding-agent
+s6-setuidgid abc \
+    npm install -g --ignore-scripts @earendil-works/pi-coding-agent
