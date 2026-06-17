@@ -6,5 +6,4 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.5/install.sh |
 
 s6-setuidgid abc sh -c 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && nvm install 24'
 
-s6-setuidgid abc \
-    npm install -g --ignore-scripts @earendil-works/pi-coding-agent
+s6-setuidgid abc sh -c 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && npm install -g --ignore-scripts @earendil-works/pi-coding-agent'
