@@ -1,6 +1,6 @@
 # Pi Agent - Docker mod for code-server
 
-This mod adds the pi agent to code-server, to be installed during container start.
+This mod adds the [Pi](https://pi.dev/) agent to code-server, to be installed during container start.
 
 In code-server docker arguments, set an environment variable `DOCKER_MODS=ghcr.io/pagdot/mods:code-server-pi-agent`
 
